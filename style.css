@@ -15,9 +15,9 @@ nav a:hover {color:#22c55e;}
 .btn {display:inline-block; margin-top:30px; padding:14px 34px; background:#22c55e; color:#020617; border-radius:10px; font-weight:700; text-decoration:none; transition:transform .2s, box-shadow .2s;}
 .btn:hover {transform:translateY(-2px); box-shadow:0 10px 30px rgba(34,197,94,.4);}
 
-/* IMAGE LAUNCHER */
-.hero .launcher-image {margin-top:30px; text-align:center;}
-.hero .launcher-image img {max-width:80%; height:auto; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.2);}
+/* LAUNCHER IMAGE SEPARATA */
+.launcher-preview {text-align: center; padding: 60px 20px;}
+.launcher-preview img {max-width:70%; height:auto; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.3);}
 
 /* FEATURES */
 .features {display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:30px; padding:80px 40px;}
